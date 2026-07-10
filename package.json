@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "vinext build"
+  },
+  "dependencies": {
+    "vinext": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
