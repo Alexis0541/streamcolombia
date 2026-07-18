@@ -123,7 +123,6 @@ th { background: #f8fafc; font-size: 13px; color: #475467; }
 .review-card p { margin: 0; color: #344054; line-height: 1.65; }
 .review-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .stars { color: var(--orange); font-size: 18px; letter-spacing: 0; white-space: nowrap; }
-.review-badge { border: 1px solid #b9e6c9; border-radius: 999px; color: #087443; background: var(--green-soft); padding: 6px 9px; font-weight: 900; font-size: 11px; line-height: 1.2; text-align: center; }
 .review-meta { display: grid; gap: 4px; color: var(--muted); font-size: 13px; }
 .review-meta strong { color: var(--ink); font-size: 15px; }
 .review-form-wrap { margin-top: 22px; }
