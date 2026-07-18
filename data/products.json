@@ -52,7 +52,93 @@
         "tutorial":  {
                          "id":  "swc4q1HxZV8",
                          "title":  "Setting up a New Amazon Fire TV Stick"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "Televisores com entrada HDMI",
+                                                      "Rede Wi-Fi doméstica",
+                                                      "Conta de utilizador para aplicações que a exijam"
+                                                  ],
+                                "summary":  "Dispositivo compacto para transformar uma TV com HDMI num centro de entretenimento ligado.",
+                                "description":  "Opção prática para quem quer aceder a aplicações legais de streaming com instalação simples e comando fácil de usar.",
+                                "warranty":  "Garantia em produtos selecionados conforme condições da VisionBox Tech.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Envios em Portugal mediante confirmação por WhatsApp.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "Oferta",
+                                "recommendedUse":  "Televisores Full HD e uso diário de aplicações legais",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Comando",
+                                            "Cabo ou extensor HDMI conforme fornecedor",
+                                            "Adaptador de corrente",
+                                            "Guia rápido"
+                                        ],
+                                "features":  [
+                                                 "Design compacto",
+                                                 "Instalação por HDMI",
+                                                 "Comando incluído conforme fornecedor",
+                                                 "Compatível com aplicações legais disponíveis na loja do sistema"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "Televisores con entrada HDMI",
+                                                      "Red Wi-Fi doméstica",
+                                                      "Cuenta de usuario para las aplicaciones que lo requieran"
+                                                  ],
+                                "summary":  "Dispositivo compacto para transformar un televisor con HDMI en un centro de entretenimiento conectado.",
+                                "description":  "Opción práctica para quienes quieren acceder a aplicaciones legales de streaming con una instalación sencilla y un mando fácil de usar.",
+                                "warranty":  "Garantía en productos seleccionados según condiciones de VisionBox Tech.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Envíos dentro de Portugal bajo confirmación por WhatsApp.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "Oferta",
+                                "recommendedUse":  "Televisores Full HD y uso diario de apps legales",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Mando",
+                                            "Cable o extensor HDMI según proveedor",
+                                            "Adaptador de corriente",
+                                            "Guía rápida"
+                                        ],
+                                "features":  [
+                                                 "Diseño compacto",
+                                                 "Instalación por HDMI",
+                                                 "Mando incluido según proveedor",
+                                                 "Compatible con apps legales disponibles en la tienda del sistema"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "TVs with HDMI input",
+                                                      "Home Wi-Fi network",
+                                                      "User account for apps that require it"
+                                                  ],
+                                "summary":  "Compact device that turns an HDMI TV into a connected entertainment center.",
+                                "description":  "A practical option for customers who want legal streaming apps with simple setup and an easy remote.",
+                                "warranty":  "Warranty on selected products according to VisionBox Tech conditions.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Shipping in Portugal confirmed by WhatsApp.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "Deal",
+                                "recommendedUse":  "Full HD TVs and everyday legal app use",
+                                "box":  [
+                                            "Device",
+                                            "Remote",
+                                            "HDMI cable or extender depending on supplier",
+                                            "Power adapter",
+                                            "Quick guide"
+                                        ],
+                                "features":  [
+                                                 "Compact design",
+                                                 "HDMI setup",
+                                                 "Remote included depending on supplier",
+                                                 "Compatible with legal apps available in the system store"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "fire-tv-stick-4k",
@@ -107,7 +193,93 @@
         "tutorial":  {
                          "id":  "zRTN1ykLyhY",
                          "title":  "Fire TV Stick 4K setup step by step"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "TV com HDMI",
+                                                      "Internet Wi-Fi",
+                                                      "Serviços legais com subscrição própria quando aplicável"
+                                                  ],
+                                "summary":  "Streaming em alta resolução para televisores 4K compatíveis e aplicações legais.",
+                                "description":  "Produto pensado para melhorar a experiência visual em televisores modernos, mantendo um formato pequeno e fácil de instalar.",
+                                "warranty":  "Garantia comercial conforme disponibilidade e fornecedor.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Entrega coordenada a partir de Portugal.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "4K",
+                                "recommendedUse":  "Televisores 4K e utilizadores que procuram melhor qualidade de imagem",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Comando",
+                                            "Adaptador de corrente",
+                                            "Cabo USB",
+                                            "Guia rápido"
+                                        ],
+                                "features":  [
+                                                 "Saída 4K em televisores compatíveis",
+                                                 "Formato tipo stick",
+                                                 "Configuração guiada",
+                                                 "Compatível com várias aplicações legais"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "TV con HDMI",
+                                                      "Internet Wi-Fi",
+                                                      "Servicios legales con suscripción propia cuando aplique"
+                                                  ],
+                                "summary":  "Streaming en alta resolución para televisores 4K compatibles y aplicaciones legales.",
+                                "description":  "Producto pensado para mejorar la experiencia visual en televisores modernos, manteniendo un formato pequeño y fácil de instalar.",
+                                "warranty":  "Garantía comercial según disponibilidad y proveedor.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Entrega coordinada desde Portugal.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "4K",
+                                "recommendedUse":  "Televisores 4K y usuarios que buscan mejor calidad de imagen",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Mando",
+                                            "Adaptador de corriente",
+                                            "Cable USB",
+                                            "Guía rápida"
+                                        ],
+                                "features":  [
+                                                 "Salida 4K en televisores compatibles",
+                                                 "Formato tipo stick",
+                                                 "Configuración guiada",
+                                                 "Compatible con múltiples aplicaciones legales"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "TV with HDMI",
+                                                      "Wi-Fi internet",
+                                                      "Legal services with their own subscription when applicable"
+                                                  ],
+                                "summary":  "High-resolution streaming for compatible 4K TVs and legal apps.",
+                                "description":  "Designed to improve the viewing experience on modern TVs while keeping a small, easy-to-install format.",
+                                "warranty":  "Commercial warranty according to availability and supplier.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Delivery coordinated from Portugal.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "4K",
+                                "recommendedUse":  "4K TVs and users looking for better image quality",
+                                "box":  [
+                                            "Device",
+                                            "Remote",
+                                            "Power adapter",
+                                            "USB cable",
+                                            "Quick guide"
+                                        ],
+                                "features":  [
+                                                 "4K output on compatible TVs",
+                                                 "Stick format",
+                                                 "Guided setup",
+                                                 "Compatible with multiple legal apps"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "fire-tv-stick-4k-max",
@@ -162,7 +334,93 @@
         "tutorial":  {
                          "id":  "unrELx3MoMw",
                          "title":  "How to setup a new Amazon Fire TV Stick"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "Televisor 4K recomendado",
+                                                      "Entrada HDMI",
+                                                      "Ligação Wi-Fi estável"
+                                                  ],
+                                "summary":  "Versão avançada para uma experiência mais fluida em televisores 4K compatíveis.",
+                                "description":  "Equipamento recomendado para quem procura maior desempenho e navegação mais rápida entre aplicações legais de entretenimento.",
+                                "warranty":  "Garantia em produtos selecionados.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Envios seguros em Portugal mediante confirmação.",
+                                "stock":  "Stock limitado real, confirme antes de pagar",
+                                "badge":  "Novo",
+                                "recommendedUse":  "Utilizadores exigentes com TV 4K e várias aplicações legais",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Comando",
+                                            "Cabo USB",
+                                            "Adaptador",
+                                            "Guia rápido"
+                                        ],
+                                "features":  [
+                                                 "Desempenho superior dentro da linha stick",
+                                                 "Compatível com 4K",
+                                                 "Formato discreto",
+                                                 "Ideal para salas principais"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "Televisor 4K recomendado",
+                                                      "Entrada HDMI",
+                                                      "Conexión Wi-Fi estable"
+                                                  ],
+                                "summary":  "Versión avanzada para una experiencia más fluida en televisores 4K compatibles.",
+                                "description":  "Equipo recomendado para quienes buscan mayor rendimiento y una navegación más rápida entre aplicaciones legales de entretenimiento.",
+                                "warranty":  "Garantía en productos seleccionados.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Envíos seguros en Portugal bajo confirmación.",
+                                "stock":  "Stock limitado real, confirmar antes de pagar",
+                                "badge":  "Nuevo",
+                                "recommendedUse":  "Usuarios exigentes con TV 4K y varias apps legales",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Mando",
+                                            "Cable USB",
+                                            "Adaptador",
+                                            "Guía rápida"
+                                        ],
+                                "features":  [
+                                                 "Rendimiento superior dentro de la línea stick",
+                                                 "Compatible con 4K",
+                                                 "Formato discreto",
+                                                 "Ideal para salas principales"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "4K TV recommended",
+                                                      "HDMI input",
+                                                      "Stable Wi-Fi connection"
+                                                  ],
+                                "summary":  "Advanced version for a smoother experience on compatible 4K TVs.",
+                                "description":  "Recommended for users who want stronger performance and faster navigation across legal entertainment apps.",
+                                "warranty":  "Warranty on selected products.",
+                                "category":  "Fire TV Stick",
+                                "shipping":  "Secure shipping in Portugal upon confirmation.",
+                                "stock":  "Real limited stock, confirm before payment",
+                                "badge":  "New",
+                                "recommendedUse":  "Demanding users with 4K TVs and several legal apps",
+                                "box":  [
+                                            "Device",
+                                            "Remote",
+                                            "USB cable",
+                                            "Adapter",
+                                            "Quick guide"
+                                        ],
+                                "features":  [
+                                                 "Higher performance within the stick line",
+                                                 "4K compatible",
+                                                 "Discreet format",
+                                                 "Ideal for main living rooms"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "android-tv-box-pro",
@@ -218,7 +476,93 @@
         "tutorial":  {
                          "id":  "Yg2JJTkJE8c",
                          "title":  "Android TV setup guide for beginners"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "TV com HDMI",
+                                                      "Wi-Fi ou Ethernet conforme modelo",
+                                                      "Acessórios USB compatíveis"
+                                                  ],
+                                "summary":  "Caixa multimédia versátil para televisores com HDMI e acessórios externos.",
+                                "description":  "Solução flexível para quem prefere um equipamento de mesa com portas adicionais e opções de configuração mais amplas.",
+                                "warranty":  "Garantia sujeita a revisão do equipamento e condições de compra.",
+                                "category":  "Android TV Box",
+                                "shipping":  "Preparação e envio coordenados por WhatsApp.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "Popular",
+                                "recommendedUse":  "Utilizadores que querem mais portas e flexibilidade com aplicações legais",
+                                "box":  [
+                                            "TV Box",
+                                            "Comando",
+                                            "Cabo HDMI",
+                                            "Adaptador de corrente",
+                                            "Manual"
+                                        ],
+                                "features":  [
+                                                 "Portas USB conforme modelo",
+                                                 "Saída HDMI",
+                                                 "Utilização com teclados e comandos",
+                                                 "Compatível com aplicações legais disponíveis"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "TV con HDMI",
+                                                      "Wi-Fi o Ethernet según modelo",
+                                                      "Accesorios USB compatibles"
+                                                  ],
+                                "summary":  "Caja multimedia versátil para televisores con HDMI y accesorios externos.",
+                                "description":  "Una solución flexible para quienes prefieren un equipo de sobremesa con puertos adicionales y posibilidades de configuración más amplias.",
+                                "warranty":  "Garantía sujeta a revisión del equipo y condiciones de compra.",
+                                "category":  "Android TV Box",
+                                "shipping":  "Preparación y envío coordinado por WhatsApp.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "Popular",
+                                "recommendedUse":  "Usuarios que quieren más puertos y flexibilidad de apps legales",
+                                "box":  [
+                                            "TV Box",
+                                            "Mando",
+                                            "Cable HDMI",
+                                            "Adaptador de corriente",
+                                            "Manual"
+                                        ],
+                                "features":  [
+                                                 "Puertos USB según modelo",
+                                                 "Salida HDMI",
+                                                 "Uso con teclados y mandos",
+                                                 "Compatible con apps legales disponibles"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "TV with HDMI",
+                                                      "Wi-Fi or Ethernet depending on model",
+                                                      "Compatible USB accessories"
+                                                  ],
+                                "summary":  "Versatile multimedia box for HDMI TVs and external accessories.",
+                                "description":  "A flexible solution for users who prefer a tabletop device with extra ports and broader setup options.",
+                                "warranty":  "Warranty subject to device review and purchase conditions.",
+                                "category":  "Android TV Box",
+                                "shipping":  "Preparation and shipping coordinated by WhatsApp.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "Popular",
+                                "recommendedUse":  "Users who want more ports and legal app flexibility",
+                                "box":  [
+                                            "TV Box",
+                                            "Remote",
+                                            "HDMI cable",
+                                            "Power adapter",
+                                            "Manual"
+                                        ],
+                                "features":  [
+                                                 "USB ports depending on model",
+                                                 "HDMI output",
+                                                 "Works with keyboards and remotes",
+                                                 "Compatible with available legal apps"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "google-tv-box",
@@ -273,7 +617,93 @@
         "tutorial":  {
                          "id":  "_KN7AYkyY3c",
                          "title":  "Google TV setup walkthrough"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "Televisor HDMI",
+                                                      "Conta de utilizador quando aplicável",
+                                                      "Wi-Fi doméstico"
+                                                  ],
+                                "summary":  "Dispositivo com interface moderna para organizar as suas aplicações legais favoritas.",
+                                "description":  "Equipamento orientado para navegação clara e instalação simples de aplicações compatíveis a partir de fontes oficiais.",
+                                "warranty":  "Garantia comercial conforme condições.",
+                                "category":  "Google TV",
+                                "shipping":  "Entrega em Portugal a confirmar.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "Novo",
+                                "recommendedUse":  "Utilizadores que preferem uma interface moderna e organizada",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Comando",
+                                            "Cabo HDMI ou integrado conforme modelo",
+                                            "Adaptador",
+                                            "Guia rápido"
+                                        ],
+                                "features":  [
+                                                 "Interface organizada",
+                                                 "Compatível com aplicações legais",
+                                                 "Pesquisa e controlo conforme modelo",
+                                                 "Design compacto"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "Televisor HDMI",
+                                                      "Cuenta de usuario cuando aplique",
+                                                      "Wi-Fi doméstico"
+                                                  ],
+                                "summary":  "Dispositivo con interfaz moderna para organizar tus aplicaciones legales favoritas.",
+                                "description":  "Equipo orientado a una navegación clara y una experiencia sencilla para instalar aplicaciones compatibles desde fuentes oficiales.",
+                                "warranty":  "Garantía comercial según condiciones.",
+                                "category":  "Google TV",
+                                "shipping":  "Entrega dentro de Portugal a confirmar.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "Nuevo",
+                                "recommendedUse":  "Usuarios que prefieren una interfaz moderna y organizada",
+                                "box":  [
+                                            "Dispositivo",
+                                            "Mando",
+                                            "Cable HDMI o integrado según modelo",
+                                            "Adaptador",
+                                            "Guía rápida"
+                                        ],
+                                "features":  [
+                                                 "Interfaz ordenada",
+                                                 "Compatible con apps legales",
+                                                 "Búsqueda y control según modelo",
+                                                 "Diseño compacto"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "HDMI TV",
+                                                      "User account when applicable",
+                                                      "Home Wi-Fi"
+                                                  ],
+                                "summary":  "Device with a modern interface for organizing your favorite legal apps.",
+                                "description":  "Designed for clear navigation and simple installation of compatible apps from official sources.",
+                                "warranty":  "Commercial warranty according to conditions.",
+                                "category":  "Google TV",
+                                "shipping":  "Delivery in Portugal to be confirmed.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "New",
+                                "recommendedUse":  "Users who prefer a modern and organized interface",
+                                "box":  [
+                                            "Device",
+                                            "Remote",
+                                            "HDMI cable or integrated connector depending on model",
+                                            "Adapter",
+                                            "Quick guide"
+                                        ],
+                                "features":  [
+                                                 "Organized interface",
+                                                 "Compatible with legal apps",
+                                                 "Search and control depending on model",
+                                                 "Compact design"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "v-box-streaming",
@@ -325,7 +755,87 @@
         "tutorial":  {
                          "id":  "1DwckUskm8E",
                          "title":  "How to install a TV box on a television"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "TV HDMI",
+                                                      "Wi-Fi"
+                                                  ],
+                                "summary":  "Alternativa compacta para transformar a sua TV num equipamento ligado.",
+                                "description":  "Produto de entrada para utilizadores que querem uma solução simples. Confirme as especificações antes de comprar.",
+                                "warranty":  "Garantia conforme disponibilidade do produto.",
+                                "category":  "V Box",
+                                "shipping":  "Produto temporariamente esgotado.",
+                                "stock":  "Temporariamente esgotado",
+                                "badge":  "Oferta",
+                                "recommendedUse":  "Clientes que procuram uma alternativa económica",
+                                "box":  [
+                                            "V Box",
+                                            "Comando",
+                                            "Cabo HDMI",
+                                            "Adaptador"
+                                        ],
+                                "features":  [
+                                                 "Design compacto",
+                                                 "Instalação simples",
+                                                 "Compatibilidade a confirmar",
+                                                 "Preço acessível"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "TV HDMI",
+                                                      "Wi-Fi"
+                                                  ],
+                                "summary":  "Alternativa compacta para convertir tu televisor en un equipo conectado.",
+                                "description":  "Producto de entrada para usuarios que quieren una solución sencilla. Confirmar especificaciones antes de comprar.",
+                                "warranty":  "Garantía según disponibilidad del producto.",
+                                "category":  "V Box",
+                                "shipping":  "Producto agotado temporalmente.",
+                                "stock":  "Agotado temporalmente",
+                                "badge":  "Oferta",
+                                "recommendedUse":  "Clientes que buscan una alternativa económica",
+                                "box":  [
+                                            "V Box",
+                                            "Mando",
+                                            "Cable HDMI",
+                                            "Adaptador"
+                                        ],
+                                "features":  [
+                                                 "Diseño compacto",
+                                                 "Instalación sencilla",
+                                                 "Compatibilidad por confirmar",
+                                                 "Precio accesible"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "HDMI TV",
+                                                      "Wi-Fi"
+                                                  ],
+                                "summary":  "Compact alternative for turning your TV into a connected device.",
+                                "description":  "Entry-level product for users who want a simple solution. Confirm specifications before buying.",
+                                "warranty":  "Warranty according to product availability.",
+                                "category":  "V Box",
+                                "shipping":  "Product temporarily out of stock.",
+                                "stock":  "Temporarily out of stock",
+                                "badge":  "Deal",
+                                "recommendedUse":  "Customers looking for an affordable alternative",
+                                "box":  [
+                                            "V Box",
+                                            "Remote",
+                                            "HDMI cable",
+                                            "Adapter"
+                                        ],
+                                "features":  [
+                                                 "Compact design",
+                                                 "Simple setup",
+                                                 "Compatibility to be confirmed",
+                                                 "Accessible price"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "air-mouse-keyboard",
@@ -378,7 +888,87 @@
         "tutorial":  {
                          "id":  "8gR8wPIUxUY",
                          "title":  "Setting up an Air Mouse remote control"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "TV Box com USB",
+                                                      "Algumas smart TVs compatíveis",
+                                                      "PC conforme modelo"
+                                                  ],
+                                "summary":  "Comando sem fios prático para TV Box e equipamentos compatíveis.",
+                                "description":  "Acessório útil para navegar, escrever pesquisas e controlar aplicações com mais conforto.",
+                                "warranty":  "Garantia em produtos selecionados.",
+                                "category":  "Comandos e controlos",
+                                "shipping":  "Envio junto com equipamentos ou em separado.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "Acessório",
+                                "recommendedUse":  "Escrever pesquisas e navegar com mais conforto",
+                                "box":  [
+                                            "Air Mouse",
+                                            "Recetor USB conforme modelo",
+                                            "Guia rápido"
+                                        ],
+                                "features":  [
+                                                 "Teclado integrado",
+                                                 "Controlo tipo air mouse",
+                                                 "Design leve",
+                                                 "Ligação por recetor conforme modelo"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "TV Box con USB",
+                                                      "Algunos smart TV compatibles",
+                                                      "PC según modelo"
+                                                  ],
+                                "summary":  "Control inalámbrico práctico para TV Box y equipos compatibles.",
+                                "description":  "Accesorio útil para navegar, escribir búsquedas y controlar aplicaciones de forma más cómoda.",
+                                "warranty":  "Garantía en productos seleccionados.",
+                                "category":  "Controles y mandos",
+                                "shipping":  "Envío junto con equipos o por separado.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "Accesorio",
+                                "recommendedUse":  "Escribir búsquedas y navegar con más comodidad",
+                                "box":  [
+                                            "Air Mouse",
+                                            "Receptor USB según modelo",
+                                            "Guía rápida"
+                                        ],
+                                "features":  [
+                                                 "Teclado integrado",
+                                                 "Control tipo mouse aéreo",
+                                                 "Diseño ligero",
+                                                 "Conexión por receptor según modelo"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "TV Box with USB",
+                                                      "Some compatible smart TVs",
+                                                      "PC depending on model"
+                                                  ],
+                                "summary":  "Practical wireless remote for TV Box devices and compatible equipment.",
+                                "description":  "Useful accessory for navigating, typing searches and controlling apps more comfortably.",
+                                "warranty":  "Warranty on selected products.",
+                                "category":  "Remotes and controls",
+                                "shipping":  "Ships with devices or separately.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "Accessory",
+                                "recommendedUse":  "Typing searches and navigating more comfortably",
+                                "box":  [
+                                            "Air Mouse",
+                                            "USB receiver depending on model",
+                                            "Quick guide"
+                                        ],
+                                "features":  [
+                                                 "Integrated keyboard",
+                                                 "Air mouse style control",
+                                                 "Lightweight design",
+                                                 "Receiver connection depending on model"
+                                             ]
+                            }
+                 }
     },
     {
         "slug":  "hdmi-accessory-kit",
@@ -431,6 +1021,86 @@
         "tutorial":  {
                          "id":  "0DOE55weJxg",
                          "title":  "How to connect HDMI cable to TV"
-                     }
+                     },
+        "i18n":  {
+                     "pt":  {
+                                "compatibility":  [
+                                                      "Dispositivos HDMI",
+                                                      "TV Box",
+                                                      "Sticks de streaming compatíveis"
+                                                  ],
+                                "summary":  "Acessórios básicos para instalar ou substituir ligações do seu dispositivo.",
+                                "description":  "Kit pensado para instalações limpas e para substituir acessórios danificados ou perdidos.",
+                                "warranty":  "Garantia conforme condições do acessório.",
+                                "category":  "Cabos e adaptadores",
+                                "shipping":  "Disponível para envio em Portugal.",
+                                "stock":  "Disponível mediante confirmação",
+                                "badge":  "Pack",
+                                "recommendedUse":  "Substituição ou instalação organizada de dispositivos de streaming",
+                                "box":  [
+                                            "Cabo HDMI",
+                                            "Adaptador",
+                                            "Extensor conforme disponibilidade"
+                                        ],
+                                "features":  [
+                                                 "Cabo HDMI",
+                                                 "Adaptador de corrente",
+                                                 "Instalação simples",
+                                                 "Ideal como substituição"
+                                             ]
+                            },
+                     "es":  {
+                                "compatibility":  [
+                                                      "Dispositivos HDMI",
+                                                      "TV Box",
+                                                      "Sticks de streaming compatibles"
+                                                  ],
+                                "summary":  "Accesorios básicos para instalar o reemplazar conexiones de tu dispositivo.",
+                                "description":  "Kit pensado para instalaciones limpias y para reemplazar accesorios dañados o extraviados.",
+                                "warranty":  "Garantía según condiciones del accesorio.",
+                                "category":  "Cables y adaptadores",
+                                "shipping":  "Disponible para envío en Portugal.",
+                                "stock":  "Disponible bajo confirmación",
+                                "badge":  "Combo",
+                                "recommendedUse":  "Reemplazo o instalación ordenada de dispositivos de streaming",
+                                "box":  [
+                                            "Cable HDMI",
+                                            "Adaptador",
+                                            "Extensor según disponibilidad"
+                                        ],
+                                "features":  [
+                                                 "Cable HDMI",
+                                                 "Adaptador de corriente",
+                                                 "Instalación sencilla",
+                                                 "Ideal como repuesto"
+                                             ]
+                            },
+                     "us":  {
+                                "compatibility":  [
+                                                      "HDMI devices",
+                                                      "TV Box",
+                                                      "Compatible streaming sticks"
+                                                  ],
+                                "summary":  "Basic accessories to install or replace your device connections.",
+                                "description":  "Kit designed for clean setups and replacing damaged or missing accessories.",
+                                "warranty":  "Warranty according to accessory conditions.",
+                                "category":  "Cables and adapters",
+                                "shipping":  "Available for shipping in Portugal.",
+                                "stock":  "Available upon confirmation",
+                                "badge":  "Bundle",
+                                "recommendedUse":  "Replacement or clean setup for streaming devices",
+                                "box":  [
+                                            "HDMI cable",
+                                            "Adapter",
+                                            "Extender depending on availability"
+                                        ],
+                                "features":  [
+                                                 "HDMI cable",
+                                                 "Power adapter",
+                                                 "Simple installation",
+                                                 "Ideal as a replacement"
+                                             ]
+                            }
+                 }
     }
 ]

@@ -1,13 +1,14 @@
-﻿{
+{
   "brand": "VisionBox Tech",
   "country": "Portugal",
   "currency": "€",
-  "whatsapp": "[NÚMERO DE WHATSAPP]",
-  "email": "[CORREO DE CONTACTO]",
-  "location": "[CIUDAD Y PAÍS]",
-  "hours": "[HORARIO DE ATENCIÓN]",
-  "paymentMethods": "[MÉTODOS DE PAGO]",
+  "whatsapp": "+351960306376",
+  "email": "visionboxtech@gmail.com",
+  "location": "Lisboa, Portugal",
+  "address": "R. Gomes Freire 98, 1150-179 Lisboa, Portugal",
+  "hours": "8 AM - 18 PM",
+  "paymentMethods": "Transferência Bancária",
+  "orderMethods": "Pedidos por WhatsApp",
   "repositoryCurrent": "visionbox-tech",
   "repositorySuggested": "visionbox-tech"
 }
-
