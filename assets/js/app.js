@@ -20,6 +20,11 @@ const t = {
 };
 Object.assign(t.es, {
   footerText: 'Tienda especializada en dispositivos de streaming, TV Box y accesorios para televisión. El contenido y las aplicaciones deben usarse siempre de forma legal.',
+  heroSlides: [
+    ['Entretenimiento en casa', 'Dispositivos y accesorios para una sala más cómoda y conectada.'],
+    ['Instalación sencilla', 'Conexiones limpias para televisores, TV Box y accesorios de red.'],
+    ['Control práctico', 'Mandos y accesorios pensados para uso diario sin complicaciones.']
+  ],
   guides: 'Guías', privacy: 'Privacidad', deliveries: 'Envíos', warrantyNav: 'Garantía', legal: 'Legal', imageSource: 'Fuente de imagen',
   benefits: ['Productos revisados antes del envío','Atención personalizada','Envíos seguros en Portugal','Garantía comercial clara'],
   benefitText: 'Proceso claro para comprar tecnología con acompañamiento antes y después del pedido.',
@@ -45,6 +50,11 @@ Object.assign(t.es, {
 });
 Object.assign(t.us, {
   footerText: 'Specialized store for streaming devices, TV boxes and television accessories. Content and apps must always be used legally.',
+  heroSlides: [
+    ['Home entertainment', 'Devices and accessories for a more comfortable connected room.'],
+    ['Simple setup', 'Clean connections for TVs, TV boxes and network accessories.'],
+    ['Practical control', 'Remotes and accessories made for easy everyday use.']
+  ],
   guides: 'Guides', privacy: 'Privacy', deliveries: 'Shipping', warrantyNav: 'Warranty', legal: 'Legal', imageSource: 'Image source',
   benefits: ['Products checked before shipping','Personalized support','Secure shipping in Portugal','Clear commercial warranty'],
   benefitText: 'A clear buying process with support before and after the order.',
@@ -70,6 +80,11 @@ Object.assign(t.us, {
 });
 Object.assign(t.pt, {
   footerText: 'Loja especializada em dispositivos de streaming, TV Box e acessórios para televisão. Conteúdos e aplicações devem ser sempre usados de forma legal.',
+  heroSlides: [
+    ['Entretenimento em casa', 'Dispositivos e acessórios para uma sala mais confortável e conectada.'],
+    ['Instalação simples', 'Ligações organizadas para televisores, TV Box e acessórios de rede.'],
+    ['Controlo prático', 'Comandos e acessórios pensados para o uso diário sem complicações.']
+  ],
   guides: 'Guias', privacy: 'Privacidade', deliveries: 'Envios', warrantyNav: 'Garantia', legal: 'Legal', imageSource: 'Fonte da imagem',
   benefits: ['Produtos verificados antes do envio','Atendimento personalizado','Envios seguros em Portugal','Garantia em produtos selecionados'],
   benefitText: 'Processo claro para comprar tecnologia com acompanhamento antes e depois do pedido.',
@@ -259,9 +274,33 @@ function renderCart(){
 }
 function cartDrawer(){ document.querySelector('#cart-drawer').innerHTML = `<div class="drawer-backdrop" id="cart-close"></div><aside class="cart-panel"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><h2>${tr('cart')}</h2><button class="icon-btn" id="cart-x">×</button></div><div id="cart-content"></div><div id="cart-totals"></div><div class="grid"><a id="cart-whatsapp" class="btn btn-green" href="#">${tr('sendOrder')}</a><button class="btn btn-outline" id="cart-clear">${tr('clearCart')}</button></div></aside>`; document.querySelector('#cart-close').onclick=closeCart; document.querySelector('#cart-x').onclick=closeCart; document.querySelector('#cart-clear').onclick=()=>{state.cart=[];saveCart();renderCart();}; }
 function securitySupportBlock(){ return `<section class="section" id="seguridad-soporte"><div class="container"><div class="section-head"><div><h2>${tr('supportTitle')}</h2><p class="muted">${tr('supportLead')}</p></div><a class="btn btn-primary" href="${basePath}/soporte/">${tr('guides')}</a></div><div class="grid grid-3">${guideData[state.lang].slice(0,3).map(([title,steps], index)=>`<article class="card benefit"><p class="meta">${guideAuthor} · ${guideMeta[index].date}</p><h3>${title}</h3><p class="muted">${steps}</p><a class="btn btn-outline" href="${basePath}/guias/${guideMeta[index].slug}/">${tr('details')}</a></article>`).join('')}</div></div></section>`; }
+const heroImages = [
+  `${basePath}/assets/images/hero-tv-room.jpg`,
+  `${basePath}/assets/images/hero-cables.jpg`,
+  `${basePath}/assets/images/hero-remote.jpg`
+];
+function heroCarousel(){
+  return `<div class="hero-carousel" aria-label="VisionBox Tech gallery"><div class="hero-track">${tr('heroSlides').map(([title,text], index)=>`<figure class="hero-slide ${index===0?'is-active':''}" data-slide="${index}"><img src="${heroImages[index]}" alt="${title}" loading="eager"><figcaption><strong>${title}</strong><span>${text}</span></figcaption></figure>`).join('')}</div><button class="carousel-btn carousel-prev" type="button" aria-label="Previous image">‹</button><button class="carousel-btn carousel-next" type="button" aria-label="Next image">›</button><div class="carousel-dots">${tr('heroSlides').map((_, index)=>`<button type="button" class="${index===0?'is-active':''}" data-dot="${index}" aria-label="Image ${index+1}"></button>`).join('')}</div></div>`;
+}
+function wireHeroCarousel(){
+  const root = document.querySelector('.hero-carousel');
+  if(!root) return;
+  const slides = [...root.querySelectorAll('.hero-slide')];
+  const dots = [...root.querySelectorAll('[data-dot]')];
+  let current = 0;
+  const show = index => {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, i)=>slide.classList.toggle('is-active', i === current));
+    dots.forEach((dot, i)=>dot.classList.toggle('is-active', i === current));
+  };
+  root.querySelector('.carousel-prev').onclick = () => show(current - 1);
+  root.querySelector('.carousel-next').onclick = () => show(current + 1);
+  dots.forEach(dot=>dot.onclick = () => show(Number(dot.dataset.dot)));
+  setInterval(()=>show(current + 1), 5200);
+}
 function renderHome(){
   const featured = state.products.slice(0,6); const cats=[...new Set(state.products.map(p=>pc(p,'category')))];
-  document.querySelector('main').innerHTML = `<section class="hero"><div class="container hero-grid"><div><span class="eyebrow">${tr('heroEyebrow')}</span><h1>${tr('heroTitle')}</h1><p class="lead">${tr('heroText')}</p><p class="muted">${tr('currencyNote')}</p><div class="hero-actions"><a class="btn btn-primary" href="${basePath}/productos/">${tr('seeProducts')}</a><a class="btn btn-dark" href="${waLink(tr('buyWhatsApp'))}">${tr('buyWhatsApp')}</a></div></div><div class="hero-card" aria-label="Streaming devices display"><div class="tv-visual"></div><div class="media-console"></div><div class="device-row"><div class="device"><div class="device-icon">▰</div><strong>TV Box</strong><p class="muted">4K ready</p></div><div class="device"><div class="device-icon">▮</div><strong>Stick</strong><p class="muted">HDMI</p></div><div class="device"><div class="device-icon">⌁</div><strong>Remote</strong><p class="muted">Wireless</p></div></div></div></div></section><section class="section"><div class="container"><div class="section-head"><div><h2>${tr('benefitsTitle')}</h2><p class="muted">${tr('benefitsText')}</p></div></div><div class="grid grid-4">${tr('benefits').map(x=>`<article class="card benefit"><h3>${x}</h3><p class="muted">${tr('benefitText')}</p></article>`).join('')}</div></div></section><section class="section alt" id="productos"><div class="container"><div class="section-head"><div><h2>${tr('featuredTitle')}</h2><p class="muted">${tr('demoText')}</p></div><a class="btn btn-outline" href="${basePath}/productos/">${tr('allProducts')}</a></div><div class="grid grid-3">${featured.map(card).join('')}</div></div></section>${securitySupportBlock()}<section class="section alt" id="categorias"><div class="container"><h2>${tr('categoriesTitle')}</h2><div class="grid grid-4" style="margin-top:24px">${cats.concat([tr('accessories')]).map(c=>`<a class="card category-card" href="${basePath}/productos/?cat=${encodeURIComponent(c)}"><strong>${c}</strong><span class="category-icon">→</span></a>`).join('')}</div></div></section>${howBlock()}${compareBlock()}${reviewsFaqBlock()}</main>`; wireAddButtons(); }
+  document.querySelector('main').innerHTML = `<section class="hero"><div class="container hero-grid"><div><span class="eyebrow">${tr('heroEyebrow')}</span><h1>${tr('heroTitle')}</h1><p class="lead">${tr('heroText')}</p><p class="muted">${tr('currencyNote')}</p><div class="hero-actions"><a class="btn btn-primary" href="${basePath}/productos/">${tr('seeProducts')}</a><a class="btn btn-dark" href="${waLink(tr('buyWhatsApp'))}">${tr('buyWhatsApp')}</a></div></div>${heroCarousel()}</div></section><section class="section"><div class="container"><div class="section-head"><div><h2>${tr('benefitsTitle')}</h2><p class="muted">${tr('benefitsText')}</p></div></div><div class="grid grid-4">${tr('benefits').map(x=>`<article class="card benefit"><h3>${x}</h3><p class="muted">${tr('benefitText')}</p></article>`).join('')}</div></div></section><section class="section alt" id="productos"><div class="container"><div class="section-head"><div><h2>${tr('featuredTitle')}</h2><p class="muted">${tr('demoText')}</p></div><a class="btn btn-outline" href="${basePath}/productos/">${tr('allProducts')}</a></div><div class="grid grid-3">${featured.map(card).join('')}</div></div></section>${securitySupportBlock()}<section class="section alt" id="categorias"><div class="container"><h2>${tr('categoriesTitle')}</h2><div class="grid grid-4" style="margin-top:24px">${cats.concat([tr('accessories')]).map(c=>`<a class="card category-card" href="${basePath}/productos/?cat=${encodeURIComponent(c)}"><strong>${c}</strong><span class="category-icon">→</span></a>`).join('')}</div></div></section>${howBlock()}${compareBlock()}${reviewsFaqBlock()}</main>`; wireHeroCarousel(); wireAddButtons(); }
 function howBlock(){ return `<section class="section alt"><div class="container"><h2>${tr('howTitle')}</h2><div class="grid grid-4 steps" style="margin-top:24px">${tr('howSteps').map(x=>`<article class="card step"><h3>${x}</h3><p class="muted">${tr('howStepText')}</p></article>`).join('')}</div></div></section>`; }
 function tutorialsBlock(){ return `<section class="section"><div class="container"><div class="section-head"><div><h2>${tr('tutorialsTitle')}</h2><p class="muted">${tr('tutorialsText')}</p></div><a class="btn btn-outline" href="${basePath}/soporte/">${tr('supportTitle')}</a></div><div class="grid grid-3">${state.products.slice(0,6).map(p=>videoEmbed(p.tutorial)).join('')}</div></div></section>`; }
 function compareBlock(){ const rows=['resolution','os','price','recommendedUse']; const labels=tr('compareLabels'); return `<section class="section"><div class="container"><h2>${tr('compareTitle')}</h2><div class="compare-wrap" style="margin-top:24px"><table><thead><tr><th>${labels.data}</th>${state.products.slice(0,4).map(p=>`<th>${p.name}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr><th>${labels[r]}</th>${state.products.slice(0,4).map(p=>`<td>${r==='price'?money(p.price):r==='recommendedUse'?pc(p,'recommendedUse'):p[r]}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div></section>`; }
